@@ -1,0 +1,49 @@
+\documentclass[a4paper]{article}
+
+\include{packages}
+\include{ownCommands}
+
+% -- einzelnes Rezept --
+\begin{document}
+	\renewcommand\x{1} % -> ggf. Multiplikator anpassen
+	\include{Rezepte/KalbsaxeBoell}
+	\include{Rezepte/Rouladen}
+\end{document}
+
+% -- Rezeptbuch --
+%\begin{document}
+%\renewcommand\x{1} % -> sollte auf 1 bleiben.
+%
+%\tableofcontents
+%
+%%%%%%%% Rind %%%%%%%
+%\addcontentsline{toc}{section}{Rind}
+%\include{Rezepte/Rouladen}
+%\include{Rezepte/Saftgulasch}
+%
+%%%%%%%% Rind %%%%%%%
+%\addcontentsline{toc}{section}{Kalb}
+%\include{Rezepte/KalbsaxeBoell}
+%
+%%%%%%%% Geflügel %%%%%%%
+%\addcontentsline{toc}{section}{Geflügel}
+%\include{Rezepte/Gaenseleberterrine}
+%
+%%%%%%%% Aufläufe %%%%%%%
+%\addcontentsline{toc}{section}{Aufläufe}
+%\include{Rezepte/Moussaka}
+%
+%%%%%%%% Vegetarisch %%%%%%%
+%\addcontentsline{toc}{section}{Vegetarisch}
+%\include{Rezepte/PalakPaneer}
+%
+%%%%%%%% Kuchen %%%%%%%
+%\addcontentsline{toc}{section}{Kuchen}
+%\include{Rezepte/Muerbteig}
+%
+%%%%%%%% Test %%%%%%%
+%\addcontentsline{toc}{section}{Test}
+%\include{Test_rezept}
+%
+%\end{document}
+%

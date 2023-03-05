@@ -1,0 +1,17 @@
+\renewcommand*{\recipetitlefont}{\large\bfseries\sffamily}
+
+\newenvironment{MyRecipe}[3]
+{
+\begin{recipe}{#1}{#2}{#3}
+\addcontentsline{toc}{subsection}{#1}	
+}
+{ 
+\end{recipe}
+}
+
+\newcommand{\Calc}[2]{%
+	\FPeval\result{round(#1*#2,1)}% Calculate width dimension
+	\result
+}
+
+\newcommand\x{1}
