@@ -1,8 +1,13 @@
-\renewcommand\x{1} % -> sollte auf 1 bleiben.
+\documentclass[11pt, DIV=15, twoside=false]{scrbook}
+
+\input{packages}
+\input{ownCommands}
+
+% -- einzelnes Rezept --
+\begin{document}
+\newcommand\x{1} % -> sollte auf 1 bleiben.
 
 \tableofcontents
-
-
 
 %%%%%%% Rind %%%%%%%
 \part{Rind}
@@ -40,4 +45,9 @@
 %%%%%%% Kuchen %%%%%%%
 \part{Kuchen}
 \include{./Rezepte/Muerbteig}
+
+
+	
+\end{document}
+
 
